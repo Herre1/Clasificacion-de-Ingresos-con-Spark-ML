@@ -1,0 +1,24 @@
+# Dependencias para Clasificación de Ingresos con Spark ML
+# =========================================================
+
+# Apache Spark y PySpark
+pyspark>=3.3.0
+
+# Análisis de datos
+pandas>=1.3.0
+numpy>=1.21.0
+
+# Visualización
+matplotlib>=3.5.0
+seaborn>=0.11.0
+
+# Jupyter Notebook (opcional para demo interactiva)
+jupyter>=1.0.0
+notebook>=6.4.0
+
+# Utilidades adicionales
+scikit-learn>=1.0.0  # Para métricas adicionales si se requieren
+
+# Dependencias del sistema (opcional, ya incluidas en Spark)
+# py4j>=0.10.9
+
