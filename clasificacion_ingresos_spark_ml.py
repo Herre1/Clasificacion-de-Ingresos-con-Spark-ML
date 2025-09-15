@@ -294,34 +294,6 @@ def predecir_nuevos_datos(modelo, df_nuevos):
     
     return predicciones_con_texto
 
-def reflexion_resultados(predicciones_entrenamiento, predicciones_nuevas):
-    """
-    Reflexión sobre los resultados obtenidos
-    """
-    print("\n" + "="*60)
-    print("8. REFLEXIÓN SOBRE LOS RESULTADOS")
-    print("="*60)
-    
-    print("OBSERVACIONES SOBRE EL MODELO:")
-    print("1. El modelo logístico ha aprendido patrones del dataset de entrenamiento")
-    print("2. Las características más importantes probablemente incluyen:")
-    print("   - Edad (experiencia laboral)")
-    print("   - Nivel educativo (especialización)")
-    print("   - Horas trabajadas por semana (dedicación)")
-    print("   - Tipo de empleo (sector)")
-    
-    print("\nINTERPRETACIÓN DE PREDICCIONES NUEVAS:")
-    print("- Personas con educación superior tienden a tener mayor probabilidad de >50K")
-    print("- La experiencia (edad) combinada con educación es un factor clave")
-    print("- Las horas trabajadas influyen en la predicción")
-    print("- El tipo de empleo (gobierno, privado, autónomo) también es relevante")
-    
-    print("\nLIMITACIONES DEL MODELO:")
-    print("- El modelo se entrenó con todos los datos disponibles")
-    print("- No se realizó validación cruzada para evitar sobreajuste")
-    print("- Los datos son simulados y pueden no reflejar la realidad exacta")
-    print("- Se necesitarían más datos y validación para uso en producción")
-
 def main():
     """
     Función principal que ejecuta todo el flujo
@@ -352,7 +324,7 @@ def main():
         predicciones_nuevas = predecir_nuevos_datos(modelo, df_nuevos)
         
         # 7. Reflexión
-        reflexion_resultados(predicciones_entrenamiento, predicciones_nuevas)
+        # en documento
         
         print("\nPROYECTO COMPLETADO EXITOSAMENTE!")
         

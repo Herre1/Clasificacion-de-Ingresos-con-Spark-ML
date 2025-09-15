@@ -1,4 +1,6 @@
-# Clasificación de Ingresos con Spark ML
+# Collin Gonzalez - Manuel Herrera
+
+## Clasificación de Ingresos con Spark ML
 
 ## Descripción del Proyecto
 
