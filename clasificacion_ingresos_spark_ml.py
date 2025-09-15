@@ -1,12 +1,8 @@
 """
 Clasificación de Ingresos con Spark ML
-======================================
 
-Proyecto para predecir si una persona gana más de 50K al año utilizando
-características demográficas y laborales con Apache Spark ML.
-
-Autor: DataPros Team
-Fecha: Septiembre 2025
+Collin Gonzalez 
+Manuel Herrera
 """
 
 from pyspark.sql import SparkSession
@@ -226,8 +222,8 @@ def crear_datos_nuevos(spark):
         # Perfil 4: Mujer joven estudiante
         (22, "Female", "Private", 90000, "Some-college", 20),
         
-        # Perfil 5: Profesional con doctorado
-        (45, "Male", "Gov", 200000, "Doctorate", 50),
+        # Perfil 5: Profesional con maestría avanzada
+        (45, "Male", "Gov", 200000, "Masters", 50),
         
         # Perfil 6: Trabajador de mediana edad sin educación superior
         (38, "Female", "Private", 160000, "11th", 35),
